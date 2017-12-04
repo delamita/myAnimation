@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "touchDown.show(_:):touchDown.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "editorView.center">
+            </PersistentString>
+            <PersistentString
+               value = "editorView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "touchDown.showEditor(_:):touchDown.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "editorView.frame.origin">
+            </PersistentString>
+            <PersistentString
+               value = "editorView.frame.height">
+            </PersistentString>
+            <PersistentString
+               value = "edposition.fromValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIAnimation.dragToMove(sender:):dragToMove.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "touchDown.hideEditor():touchDown.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "editorView.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIanimation.drawOutDown(originalSize:afterwardSize:duration:):amimation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame.origin">
+            </PersistentString>
+            <PersistentString
+               value = "view.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "dragVC.drag(_:):dragVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newCenter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIanimation.drawOutDown(originalSize:afterwardSize:duration:direction:):amimation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame.origin">
+            </PersistentString>
+            <PersistentString
+               value = "view.frame">
+            </PersistentString>
+            <PersistentString
+               value = "view.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

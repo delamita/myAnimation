@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2E73831FD42788001DBCD9 /* strech.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E73821FD42788001DBCD9 /* strech.swift */; };
+		BB2E73851FD4325C001DBCD9 /* amimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2E73841FD4325C001DBCD9 /* amimation.swift */; };
 		BBB9503F1FCF040100301E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9503E1FCF040100301E7F /* AppDelegate.swift */; };
 		BBB950411FCF040100301E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB950401FCF040100301E7F /* ViewController.swift */; };
 		BBB950441FCF040100301E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB950421FCF040100301E7F /* Main.storyboard */; };
@@ -15,7 +17,12 @@
 		BBB9504C1FCF040100301E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB9504A1FCF040100301E7F /* LaunchScreen.storyboard */; };
 		BBB950571FCF040100301E7F /* myAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB950561FCF040100301E7F /* myAnimationTests.swift */; };
 		BBB950621FCF040100301E7F /* myAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB950611FCF040100301E7F /* myAnimationUITests.swift */; };
-		BBB950701FCF04B800301E7F /* touchDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9506F1FCF04B800301E7F /* touchDown.swift */; };
+		BBB950701FCF04B800301E7F /* touchDownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9506F1FCF04B800301E7F /* touchDownVC.swift */; };
+		BBDB15581FD51EAE002FDE44 /* dragVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB15571FD51EAE002FDE44 /* dragVC.swift */; };
+		BBDB4D621FD5340500C97018 /* dragToMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4D611FD5340500C97018 /* dragToMove.swift */; };
+		BBDB4D661FD5A48E00C97018 /* dragOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4D651FD5A48E00C97018 /* dragOut.swift */; };
+		BBDB4D681FD5A84300C97018 /* touchDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4D671FD5A84300C97018 /* touchDown.swift */; };
+		BBDB4D691FD5AC7C00C97018 /* externtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB15551FD51CC1002FDE44 /* externtion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB2E73821FD42788001DBCD9 /* strech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strech.swift; sourceTree = "<group>"; };
+		BB2E73841FD4325C001DBCD9 /* amimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amimation.swift; sourceTree = "<group>"; };
 		BBB9503B1FCF040100301E7F /* myAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB9503E1FCF040100301E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB950401FCF040100301E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +59,12 @@
 		BBB9505D1FCF040100301E7F /* myAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB950611FCF040100301E7F /* myAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnimationUITests.swift; sourceTree = "<group>"; };
 		BBB950631FCF040100301E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBB9506F1FCF04B800301E7F /* touchDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchDown.swift; sourceTree = "<group>"; };
+		BBB9506F1FCF04B800301E7F /* touchDownVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchDownVC.swift; sourceTree = "<group>"; };
+		BBDB15551FD51CC1002FDE44 /* externtion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = externtion.swift; sourceTree = "<group>"; };
+		BBDB15571FD51EAE002FDE44 /* dragVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragVC.swift; sourceTree = "<group>"; };
+		BBDB4D611FD5340500C97018 /* dragToMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragToMove.swift; sourceTree = "<group>"; };
+		BBDB4D651FD5A48E00C97018 /* dragOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragOut.swift; sourceTree = "<group>"; };
+		BBDB4D671FD5A84300C97018 /* touchDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,17 @@
 		BBB9503D1FCF040100301E7F /* myAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BBDB15551FD51CC1002FDE44 /* externtion.swift */,
 				BBB9503E1FCF040100301E7F /* AppDelegate.swift */,
 				BBB950401FCF040100301E7F /* ViewController.swift */,
+				BB2E73821FD42788001DBCD9 /* strech.swift */,
+				BBDB4D641FD5342D00C97018 /* Animation */,
+				BBDB4D631FD5341800C97018 /* VC */,
 				BBB950421FCF040100301E7F /* Main.storyboard */,
 				BBB950481FCF040100301E7F /* Assets.xcassets */,
 				BBB9504A1FCF040100301E7F /* LaunchScreen.storyboard */,
 				BBB9504D1FCF040100301E7F /* Info.plist */,
 				BBB950451FCF040100301E7F /* myAnimation.xcdatamodeld */,
-				BBB9506F1FCF04B800301E7F /* touchDown.swift */,
 			);
 			path = myAnimation;
 			sourceTree = "<group>";
@@ -129,6 +146,26 @@
 				BBB950631FCF040100301E7F /* Info.plist */,
 			);
 			path = myAnimationUITests;
+			sourceTree = "<group>";
+		};
+		BBDB4D631FD5341800C97018 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BBB9506F1FCF04B800301E7F /* touchDownVC.swift */,
+				BBDB15571FD51EAE002FDE44 /* dragVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BBDB4D641FD5342D00C97018 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BB2E73841FD4325C001DBCD9 /* amimation.swift */,
+				BBDB4D611FD5340500C97018 /* dragToMove.swift */,
+				BBDB4D651FD5A48E00C97018 /* dragOut.swift */,
+				BBDB4D671FD5A84300C97018 /* touchDown.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDB4D691FD5AC7C00C97018 /* externtion.swift in Sources */,
+				BBDB4D621FD5340500C97018 /* dragToMove.swift in Sources */,
+				BB2E73831FD42788001DBCD9 /* strech.swift in Sources */,
+				BB2E73851FD4325C001DBCD9 /* amimation.swift in Sources */,
 				BBB950411FCF040100301E7F /* ViewController.swift in Sources */,
-				BBB950701FCF04B800301E7F /* touchDown.swift in Sources */,
+				BBDB4D681FD5A84300C97018 /* touchDown.swift in Sources */,
+				BBDB4D661FD5A48E00C97018 /* dragOut.swift in Sources */,
+				BBB950701FCF04B800301E7F /* touchDownVC.swift in Sources */,
 				BBB9503F1FCF040100301E7F /* AppDelegate.swift in Sources */,
+				BBDB15581FD51EAE002FDE44 /* dragVC.swift in Sources */,
 				BBB950471FCF040100301E7F /* myAnimation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
