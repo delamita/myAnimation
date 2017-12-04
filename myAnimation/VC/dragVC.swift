@@ -42,22 +42,22 @@ class dragVC: UIViewController {
         
         button.animation.dragToMove(sender: sender)
         
-        if sender.state == .began {
-            let hand = sender.location(in: self.view)
-            x = hand.x-button.center.x
-            y = hand.y-button.center.y
-        }
-
-        newCenter = CGPoint(x: sender.location(in: self.view).x-x, y: sender.location(in: self.view).y-y)
-
-        button.center = newCenter
-
-
-        centerlab.text = String(describing: view.center)
-        locationLab.text = String(describing: sender.location(in: self.view))
-        xlab.text = String(describing: x)
-        ylab.text = String(describing: y)
-        newCenterLab.text = String(describing: newCenter)
+//        if sender.state == .began {
+//            let hand = sender.location(in: self.view)
+//            x = hand.x-button.center.x
+//            y = hand.y-button.center.y
+//        }
+//
+//        newCenter = CGPoint(x: sender.location(in: self.view).x-x, y: sender.location(in: self.view).y-y)
+//
+//        button.center = newCenter
+//
+//
+//        centerlab.text = String(describing: view.center)
+//        locationLab.text = String(describing: sender.location(in: self.view))
+//        xlab.text = String(describing: x)
+//        ylab.text = String(describing: y)
+//        newCenterLab.text = String(describing: newCenter)
         
     }
     
