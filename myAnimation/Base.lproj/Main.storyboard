@@ -173,9 +173,11 @@
                                 <rect key="frame" x="87" y="260" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <connections>
                                     <action selector="butTouchUp:" destination="Trq-Rw-DLG" eventType="touchUpInside" id="XLQ-hK-du1"/>
                                     <action selector="buttonTouchDown:" destination="Trq-Rw-DLG" eventType="touchDown" id="NTd-18-8AV"/>
+                                    <outletCollection property="gestureRecognizers" destination="1Ba-l8-p0V" appends="YES" id="0lL-Yz-zYb"/>
                                 </connections>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1oG-Ox-wfN">
@@ -250,6 +252,7 @@
                         <outlet property="durationLab" destination="xFv-K4-zrT" id="QsF-dW-R5e"/>
                         <outlet property="editorView" destination="1oG-Ox-wfN" id="HPk-a6-XcO"/>
                         <outlet property="fromLab" destination="Uhr-nt-bdO" id="CSJ-ns-qr7"/>
+                        <outlet property="pan" destination="1Ba-l8-p0V" id="ivp-E7-EnP"/>
                         <outlet property="toLab" destination="R1M-q1-96T" id="4gF-iB-21S"/>
                     </connections>
                 </viewController>
@@ -259,6 +262,11 @@
                         <action selector="hideEidtor:" destination="Trq-Rw-DLG" id="G8a-Sb-hQ0"/>
                     </connections>
                 </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="1Ba-l8-p0V">
+                    <connections>
+                        <action selector="pan:" destination="Trq-Rw-DLG" id="BM7-Li-yMQ"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2136.8000000000002" y="-107.49625187406298"/>
         </scene>

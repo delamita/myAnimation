@@ -11,8 +11,8 @@ import UIKit
 
 extension UIAnimation{
     
-    
-    
+    private static var xOfDragToMove:CGFloat = 0
+    private static var yOfDragToMove:CGFloat = 0
     
     func dragToMove(sender: UIGestureRecognizer) {
         
@@ -20,14 +20,12 @@ extension UIAnimation{
         let superView = self.view.superview
         
         if sender.state == .began{
+            
             let hand = sender.location(in: superView)
             UIAnimation.xOfDragToMove = hand.x-self.view.center.x
             UIAnimation.yOfDragToMove = hand.y-self.view.center.y
             
-            UIAnimation.a = 3
         }
-        
-        print(UIAnimation.xOfDragToMove,"  ",UIAnimation.yOfDragToMove ,"  ",UIAnimation.a)
         
         let newCenter = CGPoint(x: sender.location(in: superView).x-UIAnimation.xOfDragToMove, y: sender.location(in: superView).y-UIAnimation.yOfDragToMove)
         

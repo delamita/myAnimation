@@ -112,7 +112,16 @@ class touchDown: UIViewController {
     }
     
     
+    @IBOutlet var pan: UIPanGestureRecognizer!
     
+    @IBAction func pan(_ sender: UIGestureRecognizer) {
+        
+        button.animation.dragToMove(sender: sender)
+        if sender.state == .ended {
+            butTouchUp(sender)
+        }
+        
+    }
     
     
     

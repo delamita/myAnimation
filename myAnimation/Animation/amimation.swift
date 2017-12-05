@@ -28,11 +28,7 @@ class UIAnimation {
         self.view = view
     }
     
-    static var a = 1
     
-    
-    static var xOfDragToMove:CGFloat = 0
-    static var yOfDragToMove:CGFloat = 0
     
     
 }
